@@ -19,7 +19,7 @@ class TodoApp extends React.Component {
         <p>Enter 3 things you are thankful for today: </p>
         <TodoList items={this.state.items} />
         <form onSubmit={this.handleSubmit}>
-          <label htmlFor="new-todo">
+          <label htmlFor="new-todo" style={{padding:"5px"}}>
             What are you thankful for? 
           </label>
           <input
